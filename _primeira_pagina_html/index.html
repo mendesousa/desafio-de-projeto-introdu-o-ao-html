@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTRODUÇÃO AO HTML - DESFIO DE CODIGO</title>
+</head>
+<body>
+    <h1>
+        Introdução ao HTML
+    </h1>
+    <hr>
+
+    <h2 id="indice">
+        Indice
+    </h2>
+
+    <ul>
+        <li> <a href="#primeiros-passos"> Primeiros passos com HTML - Estrutura basica do HTML</a> </li>
+        <li> <a href="#cabecalhos">Tags <b>H1 a H6</b> </a> </li>
+        <li> <a href="#tag-p">Tag <b>p</b></a>  </li>
+        <li> <a href="#formatacao">Tags de formatação de texto (<b>u, i, strong, sub, sup, mark, small</b>)</a> </li>
+        <li> <a href="#listas">Tags de Lista (<b>ol , ul , e li</b>)</a> </li>
+        <li> <a href="#tag-a">Tag <b>a</b> </a> </li>
+        <li> <a href="#tag-hr"> Tag <b>hr</b></a> </li>
+        <li> <a href="#tag-block">Tag <B>blockquote</B></a>  </li>
+        <li> <a href="#referencia">Links de referencia</a></li>
+    </ul>
+    
+    <h2 id="primeiros-passos">
+        Primeiros passos com HTML - Estrutura basica do HTML
+    </h2> <small><a href="#indice">voltar</a></small>
+    
+    <p>A Estrutura basica do HTML é formada por 3 blocos principais onde um dos blocos (<i>"html"</i>) engloba os outros dois (<i>"head</i> & <i>body</i>") e indica para o browser que este e um documento HTML. </p>
+    <p>Um documento HTML é formado por tags que possum nome especifico e estao posicionadas entre os sinais <b> < </b>e <b>></b> . Algumas tags apresentam sinal de abertura e de fechamento enquanto outras apresentam apenas sinal de abertura.</p>
+    <p>A função das tags é informar ao navegador a estrutura do site atraves de comando indicados pelo nome daquela tag especifica.</p>
+    <p>As tags tambem podem conter atributos em seu interior que tem por finalidade informar e definir caracteristicas adicionais a uma determinada tag.</p>
+    <p> A seguir serão definidas algumas das tags que compoem a estrutura de um HTML bem como sua finalidade na pagina.</p>
+
+    <h2 id="cabecalhos">
+        TAGS H1 a H6
+    </h2> <small><a href="#indice">voltar</a></small>
+
+    <p>Estas são as tags de cabeçalho. Normalmente sao utilizados  para identificar paginas e seções  e possuem aparencia diferenciada do restante do texto.</p>
+    <p>Existem seis niveis de cabeçalhos que podem ser usadas no HTML, que sao utilizados atraves das tags <b>h1 a h6</b> sendo a <b>tag h1</b> a mais relevante e tag <b>h6</b> a menos relevante.</p>
+    <p>Recomenda-se que uma pagina tenha apenas uma tag <b>h1</b> que indentifique o assunto da pagina, <u>visto que os motores de busca web utiliza essa tag como palavra chave principal durante uma busca</u>.</p>
+
+    <h2 id="tag-p">
+        TAG P
+    </h2> <small><a href="#indice">voltar</a></small>
+
+    <p>Parágrafos de texto são gerados na HTML por meio das tags <b>"p"</b>.</p>
+    <p>Esse é um exemplo de tag cuja disposição na tela se dá em forma de bloco, ou seja, <i>um parágrafo é posto sempre abaixo do outro</i>.</p>
+    
+    <h2 id="formatacao">
+        TAGS DE FORMATAÇÃO DE TEXTO (b, i, strong, sub, sup, mark, small)
+    </h2> <small><a href="#indice">voltar</a></small>
+
+    <p>As tags de formatação de texto ajudam a destacar trechos da parte escrita da página.</p>
+    <p>As tags <b>b</b> e <strong>strong</strong> sao usadas para colocar o texto em negrito/texto forte. apesar de visualmente identicas apresentam significados diferentes.</p>
+    <p>A tag <b>b</b> deve ser usado quando queremos destacar um texto apenas visualmente. enquanto a tag <strong>strong</strong> é utilizado para dar destaque visual e semantico ao texto demonstrandua sua relevancia.</p>
+    <p>A tag <i>i</i> é utilizada para dar enfase ao texto e coloca-lo em italico. </p>
+    <p> A tag <mark>mark</mark> tem a função de fazer uma marcação ao texto escolhido.</p> 
+    <p>As tags <sup>sup</sup> e <sub>sub</sub> são utilizadas para efeitos de sobrescrito e subscrito  respectivamente.</p>
+
+    <h2 id="listas">
+        TAGS DE LISTA (ol, ul, li)
+    </h2> <small><a href="#indice">voltar</a></small>
+
+    <p>Listas são elementos úteis para organizar e ordenar itens que estão relacionados de alguma forma.</p>
+    <p> No HTML é possível criar três tipos de listas: <i>ordenadas</i> (com a tag <b>ol</b>), <i>não ordenadas</i> (com a tag <b>ul</b>), e de <i>definição </i> (por meio da tag <b>dl</b>).</p>
+    <p>A tag <b>li</b> se refere a cada item que faz parte de uma lista ordenada (tag <b>ol</b>) e nao ordenadas (tag <b>ul</b>).</p>
+
+    <h2 id="tag-a">
+        TAG A
+    </h2> <small><a href="#indice">voltar</a></small>
+
+    <P>Links são normalmente utilizados para direcionar o usuário para outras páginas, ou para outras partes da mesma página. </p>
+    <p> Nos dois casos, utilizamos a tag <b>a</b>, que possui o atributo <i>href</i> no qual indicamos o destino daquele link.</P>
+    <p> Para adicionar um link para um elemento na mesma página é necessario adicionar o atributo <i>id</i> ao elemento igual àquele indicado no <i>href</i>.</p>
+    <p>É preciso lembrar nesse caso o <i>href</i> requer ainda o sinal de cerquilha (<i>#</i>) antes do id do elemento que será o foco do link.</p>
+
+    <h2 id="tag-hr">
+        TAG HR
+    </h2> <small><a href="#indice">voltar</a></small>
+
+    <p>O elemento HTML <b>hr</b> representa uma quebra temática entre elementos de nível de parágrafo.</p> 
+    <p>Nas versões anteriores do HTML, representava uma linha horizontal.</p>
+
+    <h2 id="tag-block">
+        TAG BLOCKQUOTE
+    </h2> <small><a href="#indice">voltar</a></small>
+
+    <p>O Elemento HTML <b>blockquote</b> (ou Elemento HTML de citação de bloco) indica que o texto incluído é uma longa citação. </p>
+
+    <h2 id="referencia">
+        LINKS DE REFERENCIA
+    </h2> <small><a href="#indice">voltar</a></small>
+
+    <p><a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics">https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics</a></p>
+    <p><a href="https://www.devmedia.com.br/html-basico-codigos-html/16596">https://www.devmedia.com.br/html-basico-codigos-html/16596</a></p>
+    <p> <a href="https://html.com/tags/">https://html.com/tags/</a> </p>
+
+
+
+</body>
+</html>
